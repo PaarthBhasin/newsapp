@@ -16,25 +16,25 @@ export default class App extends Component {
         <Router>
         <Navbar/>
         <Routes>
-          <Route path = '/' element = {<News key="general"  pageSize={6} country="us" category="general"/>}/>
+          <Route path = '/' element = {<News key="general"  pageSize={6} country="in" category="general"/>}/>
         </Routes>
         <Routes>
-          <Route exact path = '/business' element = {<News key="business" pageSize={6} country="us" category="business"/>}/>
+          <Route exact path = '/business' element = {<News key="business" pageSize={6} country="in" category="business"/>}/>
         </Routes>
         <Routes>
-          <Route exact path = '/entertainment' element = {<News key="entertainment" pageSize={6} country="us" category="entertainment"/>}/>
+          <Route exact path = '/entertainment' element = {<News key="entertainment" pageSize={6} country="in" category="entertainment"/>}/>
         </Routes>
         <Routes>
-          <Route exact path = '/health' element = {<News key="health" pageSize={6} country="us" category="health"/>}/>
+          <Route exact path = '/health' element = {<News key="health" pageSize={6} country="in" category="health"/>}/>
         </Routes>
         <Routes>
-          <Route exact path = '/science' element = {<News key="science" pageSize={6} country="us" category="science"/>}/>
+          <Route exact path = '/science' element = {<News key="science" pageSize={6} country="in" category="science"/>}/>
         </Routes>
         <Routes>
-          <Route exact path = '/sports' element = {<News key="sports" pageSize={6} country="us" category="sports"/>}/>
+          <Route exact path = '/sports' element = {<News key="sports" pageSize={6} country="in" category="sports"/>}/>
         </Routes>
         <Routes>
-          <Route exact path = '/technology' element = {<News key="technology" pageSize={6} country="us" category="technology"/>}/>
+          <Route exact path = '/technology' element = {<News key="technology" pageSize={6} country="in" category="technology"/>}/>
         </Routes>
         </Router>
       </div>

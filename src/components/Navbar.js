@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export class Navbar extends Component {
   static propTypes = {
@@ -39,7 +39,7 @@ export class Navbar extends Component {
                   <Link className="nav-link" to="/technology">Technology</Link>
                 </li>
 
-              </ul> 
+              </ul>
             </div>
           </div>
         </nav>
