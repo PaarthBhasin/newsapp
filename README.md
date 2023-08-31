@@ -2,7 +2,10 @@
 
 
 
-Uploading Screen Recording 2023-08-31 at 8.37.45 PM.mov…
+
+
+https://github.com/PaarthBhasin/newsapp/assets/90496636/7ea7b6b3-4091-4466-8379-b0e5be7d2ce4
+
 
 
 
