@@ -10,8 +10,7 @@ const News = (props) => {
   const [loading,setLoading] = useState(true);
   const [page,setPage] = useState(1);
   const [totalResults,setTotalResults] = useState(0);
-  
-
+  const d = new Date();
   
   const capitalizeFirstLetter = (string) =>{
     return string.charAt(0).toUpperCase() + string.slice(1);
@@ -62,6 +61,7 @@ const News = (props) => {
     return (
       <div className='container my-3'>
         <h1 className='text-center' style={{margin:'35px 0px',marginTop:'90px'}}><span className="text-primary">Fast&Factual -Top Headlines - {capitalizeFirstLetter(props.category)}</span></h1>
+        <h6 className='text-center'>{d.toISOString()}</h6>
         {/* {loading&&<Spinner/>} */}
 
         <InfiniteScroll
